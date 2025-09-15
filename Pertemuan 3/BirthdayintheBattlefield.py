@@ -24,9 +24,12 @@ print(" "*(blankFir+1),"*",sep="")
 for i in range(3):
     print(" "*(blankFir),"|",sep="",end="")
     print("-|")
+print(" "*(blankSec),"-"*(topWid+2),sep="")    
 for i in range(cakeTOP):
     print(" "*(blankSec),"|",sep="",end="")
     print("="*(topWid),"|",sep="")
+print("-"*(botWid+2))
 for i in range(cakeBOT):
     print("|",sep="",end="")
     print("="*(botWid),"|",sep="")    
+print("-"*(botWid+2))
